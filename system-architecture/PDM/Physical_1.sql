@@ -1,3 +1,9 @@
+-- #TODO: id deve ser auto increment
+-- #TODO: username deve ser unico e not null
+-- #TODO: email deve ser unico e not null
+
+
+
 CREATE TABLE User (
     id INT PRIMARY KEY,
     username VARCHAR(255),
@@ -5,6 +11,8 @@ CREATE TABLE User (
     name VARCHAR(255),
     email VARCHAR(255)
 );
+
+-- #TODO: telephone deve ser unico e not null
 
 CREATE TABLE Telephone (
     telephone VARCHAR(255),
